@@ -1,0 +1,24 @@
+{
+  "name": "udemycodinginterview",
+  "version": "1.0.0",
+  "description": "A collection of JS coding exercises and notes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint . --ext .js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjm-practice/UdemyCodingInterview.git"
+  },
+  "keywords": ["JavaScript", "Interview", "Coding"],
+  "author": "Udemy, Steve Marsh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sjm-practice/UdemyCodingInterview/issues"
+  },
+  "homepage": "https://github.com/sjm-practice/UdemyCodingInterview#readme",
+  "devDependencies": {
+    "eslint": "^4.18.0"
+  }
+}
