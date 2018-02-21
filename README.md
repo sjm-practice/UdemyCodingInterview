@@ -9,3 +9,17 @@ NOTE: will need to install jest (locally)
 ## Setup
 * course exercises source code setup
   - https://github.com/StephenGrider/AlgoCasts
+
+## Using debugger;
+* The tutorial provided helpful steps on how to use the debugger / node inspect
+* add a `debugger;` statement where you would like a breakpoint
+* then in the code, you need to call the function that contains debugger statement, so that it will be run
+* from the command line, `node inspect index.js`
+* this will run load the file, and break at line 1
+* press 'c' at the 'debug>' prompt, to continue to the first breakpoint
+* at this point, you can type 'repl' at the prompt, to go in to repl mode
+  - where you can inspect variable, execute code etc.
+* type 'ctrl-c' to exit repl mode
+* back at the debugger propmt, type 'c' to continue to next breakpoint or program end
+* '.exit' or 'ctrl-c' will exit you from the debugger
+* pretty cool.
