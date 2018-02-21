@@ -13,7 +13,7 @@ NOTE: will need to install jest (locally)
 ## Using debugger;
 * The tutorial provided helpful steps on how to use the debugger / node inspect
 * add a `debugger;` statement where you would like a breakpoint
-* then in the code, you need to call the function that contains debugger statement, so that it will be run
+* then in the code, you need to call the function that contains debugger statement, so that it will be run (invoke it)
 * from the command line, `node inspect index.js`
 * this will run load the file, and break at line 1
 * press 'c' at the 'debug>' prompt, to continue to the first breakpoint
