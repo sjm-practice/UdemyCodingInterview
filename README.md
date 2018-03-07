@@ -10,6 +10,11 @@ NOTE: will need to install jest (locally)
 * course exercises source code setup
   - https://github.com/StephenGrider/AlgoCasts
 
+## Project Directory Structure
+* `completed_exercises` - contains solutions to the exercises (by course author)
+* `exercises` - contains the being to do, or completed by me
+* `exercises_orig` - contains a copy of the  original exercises, no solution, for ease of reference
+
 ## Using debugger;
 * The tutorial provided helpful steps on how to use the debugger / node inspect
 * add a `debugger;` statement where you would like a breakpoint
